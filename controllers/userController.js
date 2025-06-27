@@ -9,4 +9,9 @@ const getUsers = async (req, res) => {
   }
 };
 
-module.exports = { getUsers };
+const getMyProfile = async (req, res) => {
+  const user = req.user; // decoded JWT payload
+  res.json({ message: "Your profile", user });
+};
+
+module.exports = { getUsers, getMyProfile };
