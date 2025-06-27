@@ -134,3 +134,28 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+
+# IDEs and editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm cache
+.npm/
+
+# coverage from testing tools
+coverage/
+
+# Output of build tools
+dist/
+build/
+
+# iisnode config or log artifacts (if any)
+iisnode/
+iisnode.log
