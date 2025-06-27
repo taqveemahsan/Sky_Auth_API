@@ -1,4 +1,4 @@
-# 🌐 My Node API
+# 🌐 Sky Auth API
 
 A professional RESTful API built with Node.js, Express, PostgreSQL, and JWT authentication.  
 Includes modules for user management and weather data using OpenWeatherMap API.
